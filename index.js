@@ -126,6 +126,7 @@ document.addEventListener("DOMContentLoaded",()=>{
     
     resetButton.addEventListener('click',()=>{
         cardStatsContainer.innerHTML="";
+        usernameInput.value = "";
         displays1.style.display="none";
         displays2.style.display="none";
         displays3.style.display="none";
